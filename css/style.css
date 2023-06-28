@@ -29,15 +29,30 @@ header {
     align-items: center;
 }
 
-a {
+/* ესენი მგონი სწორად გავუწერე მარა არ გამოდის მაინც ხაზი ჰოვერზე */
+.header_li {
+    position: relative;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
 }
-a:hover{
-    text-decoration: underline;
-    color: aqua;
+.header_li::before {
+    content: "";
+    width: 0;
+    height: 5px;
+    color: red;
+    position: relative;
+    bottom: 0;
+    left: 0 ;
+    
 }
+.header_li:hover::after{
+    width: 100%;
+    
+}
+
+
+
 
 li:nth-child(1) a {
     color: #D5906E;
@@ -111,11 +126,13 @@ h1 {
     font-family: 'Inter', sans-serif;
     margin-bottom: 72px;
 }
-.button_div{
+
+.button_div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .section1_button {
     width: 50%;
     padding: 19px;
