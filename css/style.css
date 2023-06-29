@@ -123,6 +123,23 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     margin-bottom: 16px;
+    animation: titlelight 1s ease infinite;
+}
+@keyframes titlelight {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #6277ffa8, 
+        0 0 20px #5e74ffa8,
+         0 0 20px #7587ffa8, 
+         0 0 20px #8595ffa8, 
+         0 0 2px #fed128,
+         2px 2px 2px #806914;
+        color: #D5906E;
+    }
+    50% {
+        text-shadow: 0 0 2px #ffffffa8, 0 0 5px #ffffffa8, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #D5906E;
+    }
 }
 
 .section1_p {
