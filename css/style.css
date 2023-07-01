@@ -378,15 +378,19 @@ article {
     width: 100%;
     height: 480px;
     background-image: url(../images/section3.png);
+    background-position: center;
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 160px;
     margin: auto;
+    margin-bottom: 160px;
 }
 
 .section3_div {
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
 }
 
 .section3_title {
@@ -396,5 +400,48 @@ article {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 56px;
+    
+}
+
+.form1 {
+    /* padding: 19px; */
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+}
+
+.input1 {
+    width: 65%;
+    border-style: none;
+    padding-left: 19px;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+::placeholder{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.submit1 {
+    width: 35%;
+    height: 56px;
+    border-style: none;
+    border-radius: 0px 10px 10px 0px;
+    background: #FFF;
+    background-color: white;
+    color: #402101;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
