@@ -206,6 +206,13 @@ h1 {
     color: #FFF;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
+    transition: transform 2s;
+}
+
+.section1_button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+
 
 }
 
@@ -251,8 +258,6 @@ article {
     margin: auto;
     padding: 96px;
     background: #402101;
-    ;
-
 }
 
 .section2_title {
@@ -304,6 +309,7 @@ article {
 
 .article2_box1:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .article2_box2 {
@@ -318,6 +324,7 @@ article {
 
 .article2_box2:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 
@@ -333,6 +340,7 @@ article {
 
 .article2_box3:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 
@@ -348,6 +356,7 @@ article {
 
 .article2_box4:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .box1_div {
@@ -400,7 +409,7 @@ article {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
+
 }
 
 .form1 {
@@ -422,7 +431,8 @@ article {
     font-weight: 400;
     line-height: normal;
 }
-::placeholder{
+
+::placeholder {
     color: #FFF;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
@@ -443,5 +453,158 @@ article {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+/* section4 */
+.section4 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    /* border: 2px solid blue; */
+}
+
+.section4_title {
+    color: #402101;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.section4_article {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    gap: 60px;
+    margin-bottom: 112px;
+}
+
+.section4_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 24px;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    background: rgba(213, 144, 110, 0.30);
+}
+
+.section4_box_title {
+    color: #B53B1B;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section4_box_article {
+    color: #402101;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section4_title2 {
+    color: #402101;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.section4_button {
+    width: 35%;
+    display: inline-flex;
+    padding: 14px 52px;
+    margin-bottom: 160px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-style: none;
+    background: #B53B1B;
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: transform 2s;
+}
+
+.section4_button:hover {
+    transform: scale(1.2);
+}
+
+/* footer */
+footer {
+    width: 100%;
+    padding: 32px 335px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    background: #402101;
+}
+
+.footerdiv_1 {
+    width: 22%;
+}
+
+.footer_title {
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_p {
+    margin: 16px 0 8px 0;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer_social {
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo {
+    width: 22%;
+}
+
+.footer_contacts {
+    width: 24%;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 29px;
+    vertical-align: middle;
+}
+
+.phonenumb {
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
     line-height: normal;
 }
