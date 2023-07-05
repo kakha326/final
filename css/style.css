@@ -790,7 +790,7 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 62px   ;
+    gap: 62px;
 }
 
 .p2box {
@@ -798,7 +798,8 @@ footer {
     transition: transform 1.5s;
     /* border: 1px solid blue; */
 }
-.p2box:hover{
+
+.p2box:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -808,7 +809,7 @@ footer {
 }
 
 .boxp {
-    margin : 24px 0 28px 0;
+    margin: 24px 0 28px 0;
     color: #B53B1B;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
@@ -816,7 +817,8 @@ footer {
     font-weight: 400;
     line-height: normal;
 }
-.pricediv{
+
+.pricediv {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -832,10 +834,46 @@ footer {
     font-weight: 400;
     line-height: normal;
 }
-.pagesdiv{
+
+.pagesdiv {
     width: 40%;
     margin: auto;
     margin-bottom: 160px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    
 }
 
+.pagesul {
+    display: flex;
+}
+
+.pagesbox  {
+    padding: 17px 24px;
+    font-size: 18px;
+    border: 2px solid #B53B1B;
+    transition: linear 1.5s;
+    cursor: pointer;
+}
+.pagesbox:hover{
+    background-color:#B53B1B;
+}
+.pagesbox1 {
+    border: 2px solid #B53B1B;
+    padding: 17px 24px;
+    color: #402101;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: linear 1.5s;
+    cursor: pointer;
+}
+.pagesbox1:hover{
+    background-color:#B53B1B;
+}
+.colored{
+background: #B53B1B;
+}
