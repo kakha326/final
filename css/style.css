@@ -785,7 +785,7 @@ footer {
 }
 
 .contentdiv {
-    margin-top: 94px;
+    margin: 94px 0 120px 0;
     /* border: 2px solid green; */
     width: 100%;
     display: flex;
@@ -795,7 +795,12 @@ footer {
 
 .p2box {
     width: 21.2%;
+    transition: transform 1.5s;
     /* border: 1px solid blue; */
+}
+.p2box:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .boximg {
@@ -827,3 +832,10 @@ footer {
     font-weight: 400;
     line-height: normal;
 }
+.pagesdiv{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 160px;
+    border: 2px solid yellow;
+}
+
