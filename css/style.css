@@ -23,7 +23,8 @@ header {
     z-index: 1;
 }
 
-.fa-bars , .fa-x {
+.fa-bars,
+.fa-x {
     display: none;
 }
 
@@ -136,7 +137,8 @@ li:nth-child(1) a {
     background-position: center;
     position: relative;
 }
-.section1_page2{
+
+.section1_page2 {
     width: 100%;
     height: 560px;
     display: flex;
@@ -188,7 +190,8 @@ li:nth-child(1) a {
         color: #D5906E;
     }
 }
-.section1h1_page2{
+
+.section1h1_page2 {
     color: #FFF;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
@@ -198,12 +201,15 @@ li:nth-child(1) a {
     margin-bottom: 72px;
     animation: titlelight2 1s ease infinite;
 }
+
 @keyframes titlelight2 {
+
     0%,
     100% {
-   
+
         color: rgb(146, 131, 131);
     }
+
     50% {
         text-shadow: 0 0 2px #ffffffa8, 0 0 5px #ffffffa8, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
         color: #e5beab;
@@ -323,14 +329,15 @@ article {
     /* border: solid 2px yellow; */
 }
 
-.article2::before{
+.article2::before {
     content: url(../images/arrow1.svg);
     position: absolute;
     left: -60px;
     cursor: pointer;
-   
+
 }
-.article2::after{
+
+.article2::after {
     content: url(../images/arro2.svg);
     position: absolute;
     right: -60px;
@@ -648,38 +655,175 @@ footer {
     font-weight: 300;
     line-height: normal;
 }
+
 /* page2 */
 /* section2 */
-.section2_page2{
+.section2_page2 {
     width: 85%;
-    height: 400px;
     margin: auto;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
-.section2_page2_div{
+
+.section2_page2_div {
+    width: 75%;
+    margin: auto;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-evenly;
     align-items: center;
+    /* border: 2px solid red; */
 }
-.fa-angle-down{
+
+.fa-angle-down {
     font-size: 24px;
 }
 
-.section3_div_page2{
-    border-radius: 10px;
-border: 2px solid #402101;
-width: 40%;
+.sec2page2_div1 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
 }
-/* .input2{
+
+.page2_p {
+    color: #402101;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttondiv2 {
+    width: 55%;
+}
+
+.form2 {
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid #402101;
+}
+
+.input2 {
     width: 65%;
     border-style: none;
+    color: rgba(64, 33, 1, 0.52);
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.submit2{
+
+.submit2 {
     width: 35%;
+    padding: 17px;
     border-style: none;
-} */
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+    background: #402101;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.input2::placeholder {
+    padding-left: 19px;
+    color: rgba(64, 33, 1, 0.52);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.p2title_div {
+    width: 100%;
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid yellow; */
+}
 
+.p2title {
+    color: #402101;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.sortdiv {
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #B53B1B;
+    background: #FFF;
+}
 
+.sortp {
+    color: #402101;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fa-arrow-down-up-across-line {
+    font-size: 24px;
+    color: #402101;
+}
+
+.contentdiv {
+    margin-top: 94px;
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 62px   ;
+}
+
+.p2box {
+    width: 21.2%;
+    /* border: 1px solid blue; */
+}
+
+.boximg {
+    width: 100%
+}
+
+.boxp {
+    margin : 24px 0 28px 0;
+    color: #B53B1B;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pricediv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pricep {
+    color: #402101;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
