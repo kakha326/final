@@ -24,7 +24,7 @@ header {
 }
 
 .fa-bars,
-.fa-x {
+.fa-xmark {
     display: none;
 }
 
@@ -215,8 +215,6 @@ li:nth-child(1) a {
         color: #e5beab;
     }
 }
-
-
 .section1_p {
     color: #FFF;
     text-align: center;
@@ -226,7 +224,6 @@ li:nth-child(1) a {
 }
 
 .button_div {
-
     display: flex;
     justify-content: center;
     align-items: center;

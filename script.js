@@ -1,0 +1,16 @@
+let burger = document.querySelector(".fa-bars");
+let xmark = document.querySelector(".fa-xmark");
+let mobileMenu = document.querySelector(".header_nav");
+
+
+burger.addEventListener("click", ()=>{
+    mobileMenu.classList.add("show_hide");
+    burger.style.display = "none";
+    xmark.style.display = "block";
+})
+
+xmark.addEventListener("click", ()=>{
+    mobileMenu.classList.remove("show_hide");
+    burger.style.display = "block";
+    xmark.style.display = "none";
+})
