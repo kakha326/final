@@ -53,9 +53,9 @@ width: 75%;
         padding: 25px 25px;
         margin-bottom: 64px;
     }
-   .section1{
-    height: 400px;
-   }
+    .article1button{
+        width: 60%;
+    }
     
 }
 @media(max-width: 440px)
@@ -81,7 +81,9 @@ width: 75%;
         width: 90%;
     }
    header{
-    padding: 8px;
+    padding: 2px;
    }
-   
+   .headerdiv_3{
+    gap: 6px    ;
+   }
 }
