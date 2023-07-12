@@ -73,7 +73,11 @@ width: 75%;
 }
 @media(max-width: 400px)
 {
-  
+    .box1_div {
+        width: 22%;
+        margin: 186px auto 16px 20px;
+        padding: 12px;
+    }
     .section3_title{
         font-size: 28px;
     }
