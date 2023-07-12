@@ -128,7 +128,6 @@ li:nth-child(1) a {
 .fa-cart-shopping:hover {
     transform: scale(1.4);
 }
-
 /* banner */
 .section1 {
     width: 100%;
@@ -260,8 +259,7 @@ li:nth-child(1) a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
-    width: 70%;
+    width: 65%;
     margin: 160px auto;
     /* border: 4px solid green; */
 }
@@ -637,6 +635,9 @@ footer {
 
 .footerdiv_1 {
     width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .footer_title {
@@ -649,7 +650,7 @@ footer {
 }
 
 .footer_p {
-    margin: 16px 0 8px 0;
+    /* margin: 16px 0 8px 0; */
     color: #FFF;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
@@ -679,6 +680,8 @@ footer {
 
 .footer_contacts {
     width: 24%;
+    display: flex;
+    flex-direction: column;
 }
 
 .phone {
