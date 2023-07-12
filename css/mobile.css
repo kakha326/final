@@ -53,7 +53,9 @@ width: 75%;
         padding: 25px 25px;
         margin-bottom: 64px;
     }
-   
+   .section1{
+    height: 400px;
+   }
     
 }
 @media(max-width: 440px)
