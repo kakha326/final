@@ -61,10 +61,25 @@ width: 75%;
     .footer_logo{
         width: 70%;
     }
+    .section4_button{
+        width: 75%;
+        padding: 12px;
+    }
+    .section4_title{
+        font-size: 28px;
+    }
 }
-@media(max-width: 350px)
+@media(max-width: 400px)
 {
+  
+    .section3_title{
+        font-size: 28px;
+    }
     .footer_logo{
         width: 90%;
     }
+   header{
+    padding: 8px;
+   }
+   
 }
