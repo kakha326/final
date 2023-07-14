@@ -16,5 +16,18 @@
     .boxnone {
         display: none;
     }
+    .contentdiv{
+        gap: 45px;
+        justify-content: space-evenly;
+    }
+}
+@media(max-width: 1300px) {
+    .sortdiv{
+        width: 14%;
+    }
+    .section2_page2_div{
+        width: 85%;
+    }
+    
 }
 

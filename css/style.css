@@ -896,6 +896,9 @@ footer {
 }
 
 .pagesbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 17px 24px;
     font-size: 18px;
     border: 2px solid #B53B1B;
@@ -908,6 +911,9 @@ footer {
 }
 
 .pagesbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid #B53B1B;
     padding: 17px 24px;
     color: #402101;
@@ -925,7 +931,7 @@ footer {
 }
 
 .colored {
-    background: #B53B1B;
+    background: #b53a1b9e;
 }
 
 /* page3 */
