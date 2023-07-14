@@ -245,15 +245,35 @@
         font-size: 32px;
         margin-bottom: 34px;
     }
-}
-@media(max-width: 700px) {
     .pagesdiv {
         width: 70%;
     }
+     /* .p2title_div{
+        justify-content: space-around;
+     } */
+    .sortdiv{
+        width: 20%;
+    }
+    .section2_page2_div{
+        width: 100%;
+    }
 }
+
 @media(max-width: 600px) {
     .pagesdiv {
         width: 90%;
-    } 
-   
+}
+.section2_page2_div{
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+.sec2page2_div1{
+   width: 50%;
+}
+.buttondiv2{
+    width: 100%;
+  
+}
+
 }

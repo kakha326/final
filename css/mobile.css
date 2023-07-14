@@ -41,6 +41,11 @@ width: 75%;
 .footerdiv_1{
     width: 55%;
 }
+/* .section1_page2{
+    width: inherit;
+    margin-bottom: 80px;
+    height: 320px;
+} */
 }
 @media(max-width: 465px)
 {
