@@ -981,7 +981,8 @@ footer {
     /* border: 2px solid red; */
 }
 
-.input3 {
+.input3 { 
+    /* აქ ვერ მივხვდი რატო ვერ ვზრდი ინფუთის სიგანეს და მხოლოდ ერთი ასო რატო ჩანს ინფუთში  */
     width: 65%;
     padding: 11px 116px 12px 8px;
     align-items: center;
@@ -991,7 +992,6 @@ footer {
 }
 
 .input3::placeholder {
-    width: 100%;
     color: rgba(255, 255, 255, 0.76);
     font-size: 14px;
     font-family: 'Inter', sans-serif;
