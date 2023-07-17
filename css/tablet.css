@@ -100,11 +100,7 @@
 }
 
 @media(max-width: 700px) {
-    .headerlogo_div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+ 
 
     .header_logo {
         font-size: 32px;
@@ -274,6 +270,15 @@
 .buttondiv2{
     width: 100%;
   
+}
+.pagesbox{
+    padding: 14px;
+}
+.pagesbox1{
+    padding: 14px;
+}
+.pagesul{
+    margin: auto;
 }
 
 }

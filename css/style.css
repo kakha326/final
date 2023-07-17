@@ -68,9 +68,9 @@ header {
 li:nth-child(1) a {
     color: #D5906E;
 }
-
-.header_logo {
+.header_logo{
     display: flex;
+    justify-content: center;
     align-items: center;
     color: #FFF;
     font-size: 36px;
@@ -147,6 +147,7 @@ li:nth-child(1) a {
     justify-content: center;
     align-items: center;
     background-image: url(../images/cover2.png);
+    background-size: inherit;
     background-position: center;
     position: relative;
     margin-bottom: 160px;
@@ -669,6 +670,7 @@ footer {
 .footer_logo {
     width: 22%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .footerlogo1{

@@ -1,5 +1,8 @@
 @media(max-width: 540px)
 {
+    .header_logo{
+       flex-direction: column;
+    }
  .article{
     width: 75%;
     /* gap: 2px; */
@@ -7,9 +10,8 @@
  .section4_button{
 width: 75%;
  }
- .header_logo{
+ .headerlogo_div{
     width: 50%;
-    /* display: flex; */
     flex-wrap: wrap;
  }
  .section1_div{
@@ -41,14 +43,21 @@ width: 75%;
 .footerdiv_1{
     width: 55%;
 }
-/* .section1_page2{
-    width: inherit;
-    margin-bottom: 80px;
-    height: 320px;
-} */
 }
 @media(max-width: 465px)
+
 {
+    .sec2page2_none{
+        display: none;
+    }
+    .contentdiv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .p2box{
+        width: 90%;
+    }
     .article{
         width: 95%;
         justify-content: space-around;
@@ -60,6 +69,9 @@ width: 75%;
     }
     .article1button{
         width: 60%;
+    }
+    .pagesdiv{
+        margin: 53px auto 64px;
     }
     
 }
@@ -86,13 +98,22 @@ width: 75%;
     .section3_title{
         font-size: 28px;
     }
-    .footer_logo{
-        width: 90%;
-    }
+
    header{
     padding: 2px;
    }
    .headerdiv_3{
     gap: 6px    ;
    }
+}
+@media(max-width: 360px){
+    .pagesbox{
+        padding: 10px;
+    }
+    .pagesbox1{
+        padding: 10px;
+    }
+    .pagesul{
+        margin: auto;
+    }
 }
