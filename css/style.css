@@ -975,16 +975,14 @@ footer {
 .form3 {
     display: flex;
     flex-wrap: wrap;
-    gap: 36px;
+    gap: 45px;
     justify-content: space-between;
     align-items: center;
     /* border: 2px solid red; */
 }
 
-.input3 { 
-    /* აქ ვერ მივხვდი რატო ვერ ვზრდი ინფუთის სიგანეს და მხოლოდ ერთი ასო რატო ჩანს ინფუთში  */
-    width: 65%;
-    padding: 11px 116px 12px 8px;
+.input3 {
+    padding: 11px 11px 12px 8px;
     align-items: center;
     border-radius: 10px;
     border: 2px solid #FFF;
