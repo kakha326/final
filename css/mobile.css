@@ -43,6 +43,9 @@ width: 75%;
 .footerdiv_1{
     width: 55%;
 }
+.formdiv{
+    width: 96%;
+}
 }
 @media(max-width: 465px)
 
@@ -87,6 +90,13 @@ width: 75%;
     .section4_title{
         font-size: 28px;
     }
+    .form3{
+        
+        gap: 16px;
+    }}
+    .input3{
+        width: 30%;
+    }
 }
 @media(max-width: 400px)
 {
@@ -115,5 +125,8 @@ width: 75%;
     }
     .pagesul{
         margin: auto;
+    }
+    .form3{
+        width: 100%;
     }
 }
